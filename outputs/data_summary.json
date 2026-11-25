@@ -1,0 +1,51 @@
+{
+  "dataset": "Yelp/yelp_review_full",
+  "seed": 42,
+  "raw_missing_text_rows": 0,
+  "raw_duplicate_text_rows": 0,
+  "train_rows": 800,
+  "validation_rows": 200,
+  "test_rows": 500,
+  "train_distribution": [
+    [
+      0,
+      320
+    ],
+    [
+      2,
+      320
+    ],
+    [
+      1,
+      160
+    ]
+  ],
+  "validation_distribution": [
+    [
+      0,
+      80
+    ],
+    [
+      2,
+      80
+    ],
+    [
+      1,
+      40
+    ]
+  ],
+  "test_distribution": [
+    [
+      2,
+      200
+    ],
+    [
+      0,
+      200
+    ],
+    [
+      1,
+      100
+    ]
+  ]
+}

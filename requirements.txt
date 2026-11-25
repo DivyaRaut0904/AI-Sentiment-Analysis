@@ -1,0 +1,13 @@
+# Install into the project virtual environment after selecting Python 3.11.
+# PyTorch's CUDA build depends on the machine's NVIDIA driver and CUDA support.
+torch>=2.5,<2.16
+transformers>=4.46,<6
+datasets>=3.0,<6
+pandas>=2.2,<3.2
+numpy>=1.26,<2.5
+scikit-learn>=1.5,<2
+nltk>=3.9,<4
+matplotlib>=3.9,<3.12
+seaborn>=0.13,<0.14
+plotly>=5.24,<8
+streamlit>=1.40,<2

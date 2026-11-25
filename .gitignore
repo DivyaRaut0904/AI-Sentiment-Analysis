@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+data/raw/
+data/processed/
+models/*.pt
+models/*.bin
+models/*.safetensors
+models/distilbert/
+outputs/*.png
+reports/*

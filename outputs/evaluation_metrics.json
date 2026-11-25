@@ -1,0 +1,98 @@
+{
+  "BiLSTM": {
+    "model": "BiLSTM",
+    "accuracy": 0.41,
+    "macro_precision": 0.38454179946717265,
+    "macro_recall": 0.37166666666666665,
+    "macro_f1": 0.34796049641942045,
+    "per_class": {
+      "Negative": {
+        "precision": 0.42686567164179107,
+        "recall": 0.715,
+        "f1": 0.5345794392523364,
+        "support": 200
+      },
+      "Neutral": {
+        "precision": 0.24324324324324326,
+        "recall": 0.18,
+        "f1": 0.20689655172413793,
+        "support": 100
+      },
+      "Positive": {
+        "precision": 0.4835164835164835,
+        "recall": 0.22,
+        "f1": 0.3024054982817869,
+        "support": 200
+      }
+    },
+    "confusion_matrix": [
+      [
+        143,
+        28,
+        29
+      ],
+      [
+        64,
+        18,
+        18
+      ],
+      [
+        128,
+        28,
+        44
+      ]
+    ],
+    "inference_seconds": 0.3336841000127606,
+    "inference_seconds_per_1000": 0.6673682000255212,
+    "test_size": 500,
+    "training_seconds": 2.342856099945493
+  },
+  "DistilBERT": {
+    "model": "DistilBERT",
+    "accuracy": 0.67,
+    "macro_precision": 0.6393424429336815,
+    "macro_recall": 0.625,
+    "macro_f1": 0.6276962612997158,
+    "per_class": {
+      "Negative": {
+        "precision": 0.755,
+        "recall": 0.755,
+        "f1": 0.755,
+        "support": 200
+      },
+      "Neutral": {
+        "precision": 0.3007518796992481,
+        "recall": 0.4,
+        "f1": 0.34334763948497854,
+        "support": 100
+      },
+      "Positive": {
+        "precision": 0.8622754491017964,
+        "recall": 0.72,
+        "f1": 0.784741144414169,
+        "support": 200
+      }
+    },
+    "confusion_matrix": [
+      [
+        151,
+        44,
+        5
+      ],
+      [
+        42,
+        40,
+        18
+      ],
+      [
+        7,
+        49,
+        144
+      ]
+    ],
+    "inference_seconds": 37.61298160004662,
+    "inference_seconds_per_1000": 75.22596320009325,
+    "test_size": 500,
+    "training_seconds": 265.3745958000072
+  }
+}
