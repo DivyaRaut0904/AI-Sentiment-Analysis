@@ -4,6 +4,32 @@ An end-to-end PyTorch project that converts Yelp star ratings into three sentime
 **Negative** (1-2 stars), **Neutral** (3 stars), and **Positive** (4-5 stars). It implements
 and compares a bidirectional LSTM and fine-tuned DistilBERT.
 
+## Visual overview
+
+### Data pipeline
+
+![Yelp review data preparation and split workflow](outputs/data_pipeline_diagram.png)
+
+### Model architectures
+
+![BiLSTM and DistilBERT architecture comparison](outputs/model_architecture_diagram.png)
+
+### Exploratory analysis and evaluation
+
+![Sentiment and review length exploratory analysis](outputs/eda_overview.png)
+
+![Model metric comparison from actual test predictions](outputs/model_comparison.png)
+
+| Model | Accuracy | Macro F1 |
+|---|---:|---:|
+| BiLSTM | 41.0% | 0.3480 |
+| DistilBERT | 67.0% | 0.6277 |
+
+These are actual results from the small CPU baseline run (800 training, 200 validation,
+and 500 test reviews; one epoch each). They are a learning baseline, not a production
+benchmark. See [the full comparison report](reports/model_comparison.md) and generated
+confusion matrices in `outputs/`.
+
 ## Project structure
 
 ```text

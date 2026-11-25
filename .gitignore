@@ -9,5 +9,5 @@ models/*.pt
 models/*.bin
 models/*.safetensors
 models/distilbert/
-outputs/*.png
 reports/*
+!reports/model_comparison.md
